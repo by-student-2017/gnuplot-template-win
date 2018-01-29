@@ -31,39 +31,33 @@ ArialŒ`Ž®‚Ì‚à‚Ì‚Í‘¼‚ÌŠw‰ïi—á‚¦‚ÎA“ú–{”M“dŠw‰ïA“ú–{•¨—Šw‰ïA“ú–{‰ž—p•¨—Šw‰ï
 **************************************************************************
 ¡ .bat‚Ì‘‚«Š·‚¦•û
 
-a)  .batƒtƒ@ƒCƒ‹‚ð‰EƒNƒŠƒbƒN‚µ‚Ä•ÒW‚ð‘I‘ð‚·‚ê‚Î‘‚«Š·‚¦‚ç‚ê‚Ü‚·
-@ƒTƒNƒ‰ƒ_ƒGƒfƒBƒ^i–³žj‚ð—p‚¢‚é‚Ì‚à‚¨Š©‚ß‚Å‚·B
+a)  .batƒtƒ@ƒCƒ‹‚ð‰EƒNƒŠƒbƒN‚µ‚Ä•ÒW‚ð‘I‘ð‚·‚ê‚Î‘‚«Š·‚¦‚ç‚ê‚Ü‚·BƒTƒNƒ‰ƒ_ƒGƒfƒBƒ^i–³žj‚ð—p‚¢‚é‚Ì‚à‚¨Š©‚ß‚Å‚·B
 
-b) rem ‚ð–`“ª‚É‘‚«“ü‚ê‚é‚ÆƒRƒƒ“ƒg‚Ìs‚É‚È‚è‚Ü‚·
-@[del env.txt]‚ð[rem del env.txt]‚É‘‚«Š·‚¦‚é‚ÆAenv.txt‚ªÁ‚³‚ê‚¸‚ÉŽc‚èAgnuplot—p‚Ì“ü—Í‚É‘Î‰ž‚µ‚Ü‚·B.bat‚ðƒNƒŠƒbƒN‚·‚ê‚Î env.txt‚Ì“à—e‚ð“Ç‚Ýž‚ñ‚Å}‚ð•`‚¢‚Ä‚­‚ê‚Ü‚·B
+b) rem ‚ð–`“ª‚É‘‚«“ü‚ê‚é‚ÆƒRƒƒ“ƒg‚Ìs‚É‚È‚è‚Ü‚·B[del env.txt]‚ð[rem del env.txt]‚É‘‚«Š·‚¦‚é‚ÆAenv.txt‚ªÁ‚³‚ê‚¸‚ÉŽc‚èAgnuplot—p‚Ì“ü—Í‚É‘Î‰ž‚µ‚Ü‚·B.bat‚ðƒNƒŠƒbƒN‚·‚ê‚Î env.txt‚Ì“à—e‚ð“Ç‚Ýž‚ñ‚Å}‚ð•`‚¢‚Ä‚­‚ê‚Ü‚·B
 
-c) #graph setting ˆÈ‰º‚Ì•”•ª‚ª}‚ÌcŽ²‰¡Ž²‚È‚Ç‚ÉŠÖ‚·‚é‚à‚Ì‚Å‚·B
-@gnuplot‚ÌŒ`Ž®‚É‚È‚Á‚Ä‚¢‚Ü‚·‚Ì‚ÅAweb‚È‚Ç‚Å’²‚×‚Ä‘‚«Š·‚¦‚Ä‚­‚¾‚³‚¢B
-@“Á‚ÉAset xrange[*:*]‚âyrange[*:*]‚Ì*‚¨‹ï‘Ì“I‚È”’l‚É‚·‚é‚È‚Ç‚¾‚ÆŽv‚¢‚Ü‚·B
+c) #graph setting ˆÈ‰º‚Ì•”•ª‚ª}‚ÌcŽ²‰¡Ž²‚È‚Ç‚ÉŠÖ‚·‚é‚à‚Ì‚Å‚·Bgnuplot‚ÌŒ`Ž®‚É‚È‚Á‚Ä‚¢‚Ü‚·‚Ì‚ÅAweb‚È‚Ç‚Å’²‚×‚Ä‘‚«Š·‚¦‚Ä‚­‚¾‚³‚¢B“Á‚ÉAset xrange[*:*]‚âyrange[*:*]‚Ì*‚¨‹ï‘Ì“I‚È”’l‚É‚·‚é‚È‚Ç‚¾‚ÆŽv‚¢‚Ü‚·B
 
-d) ‚»‚Ì‘¼1
+d) ‚»‚Ì‘¼1F 
 
 @.dat1‚È‚Ç‚ÅAx, y1, y2, ..., y6‚Æ•¡”‚Ìƒf[ƒ^‚ª‹Lq‚³‚ê‚Ä‚¢‚éê‡‚ÍA.bat‚Ìset x=1, set y=2‚Ì”’l‚ð‘‚«Š·‚¦‚é‚ÆŽw’è‚µ‚½—ñ‚Ìƒf[ƒ^‚ð•`‰æ‚µ‚Ü‚·B
 
-e) ‚»‚Ì‘¼2
+e) ‚»‚Ì‘¼2F 
 
 @shirley‚Å‚ÍA.dat1‚Ìƒf[ƒ^ƒtƒ@ƒCƒ‹‚ÅAxi‘©”›ƒGƒlƒ‹ƒM[j, y1i‹­“xj, y2iShirly–@‚Å‚ÌƒoƒbƒNƒOƒ‰ƒEƒ“ƒhj‚Æ‚µ‚Äƒf[ƒ^‚ð“ü‚ê‚Ä‚­‚¾‚³‚¢B
 
-f) ‚»‚Ì‘¼3
+f) ‚»‚Ì‘¼3F 
 
 @JIM‚Æ•t‚¢‚½‚à‚Ì‚ÍcŽ²‚Æ‰¡Ž²‚ÌŒ`Ž®‚ð‘µ‚¦‚Ä‚¢‚Ü‚·‚ªA‘¼‚Ì‚à‚Ì‚ÍŒ`Ž®‚ªˆÙ‚È‚Á‚Ä‚¢‚Ü‚·B
 @•K—v‚È‚ç”­•\‚â“Še‚·‚éŠw‰ï‚ÌŒ`Ž®‚É“ˆê‚µ‚Ä‚­‚¾‚³‚¢B
 @Šw‰ï—p‚É‚ÍArialˆÈŠO‚É‚àHelvetica‚ª‚æ‚­Žg‚í‚ê‚Ü‚·B‚Ç‚¿‚ç‚Å‚à—Ç‚¢‚Å‚·‚ªA
 @Œ`Ž®‚Í“ˆê‚µ‚Ä‚¨‚­•K—v‚ª‚ ‚è‚Ü‚·BRIETAN‚Å—L–¼‚Èò•xŽm•væ¶‚ÍArial‚ðŽg‚¤‚»‚¤‚Å‚·B
 
-g) ‚»‚Ì‘¼4
+g) ‚»‚Ì‘¼4F 
 
-EƒXƒyƒNƒgƒ‹‚ðŒ©‚¹‚éê‡
-@¶ƒf[ƒ^‚ªd—v‚È‚Ì‚ÅA¶ƒf[ƒ^‚Ì‚Ü‚Üo—Í‚µ‚Ü‚·iƒXƒvƒ‰ƒCƒ“ŠÖ”‚È‚Ç‚ÅŠŠ‚ç‚©‚É‚µ‚È‚¢jB
+EƒXƒyƒNƒgƒ‹‚ðŒ©‚¹‚éê‡F¶ƒf[ƒ^‚ªd—v‚È‚Ì‚ÅA¶ƒf[ƒ^‚Ì‚Ü‚Üo—Í‚µ‚Ü‚·iƒXƒvƒ‰ƒCƒ“ŠÖ”‚È‚Ç‚ÅŠŠ‚ç‚©‚É‚µ‚È‚¢jB
 @ƒs[ƒNˆÊ’u‚ð’m‚é‚½‚ß‚É“ñ‰ñ”÷•ª‚·‚é‚Æ‚«‚É‚ÍAƒUƒrƒcƒL[ƒS[ƒŒƒC–@‚È‚Ç‚ÅŠŠ‚ç‚©‚É‚µ‚Ü‚·B
 
-E“d‹C’ïR‚â”ä”M‚È‚Çƒf[ƒ^“_‚ª–Ú‚ÅŒ©‚Ä–¾Šm‚É•ª‚©‚ê‚Ä‚¢‚éê‡
-@ƒXƒvƒ‰ƒCƒ“ŠÖ”‚È‚Ç‚ÅŠŠ‚ç‚©‚É‚µ‚Ü‚·‚Ì‚ÅA‚»‚¤‚È‚é‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚·B
+E“d‹C’ïR‚â”ä”M‚È‚Çƒf[ƒ^“_‚ª–Ú‚ÅŒ©‚Ä–¾Šm‚É•ª‚©‚ê‚Ä‚¢‚éê‡FƒXƒvƒ‰ƒCƒ“ŠÖ”‚È‚Ç‚ÅŠŠ‚ç‚©‚É‚µ‚Ü‚·‚Ì‚ÅA‚»‚¤‚È‚é‚æ‚¤‚É‚µ‚Ä‚¢‚Ü‚·B
 @ƒpƒ[ƒ|ƒCƒ“ƒ^‚È‚Ç‚Åƒf[ƒ^‚Ì“_‚ðŒ‹‚ñ‚ÅŠŠ‚ç‚©‚É‚µ‚Ä‚à—Ç‚¢‚Å‚µ‚å‚¤B
 **************************************************************************
 ¡ ƒ‰ƒCƒZƒ“ƒX
