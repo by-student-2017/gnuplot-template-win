@@ -8,6 +8,7 @@
 iScreenshot‚ÍƒeƒXƒg‰æ‘œ‚Å‚·j
 
 ¦x‚Æy‚Ì2—ñ‚¾‚¯‚Ìƒf[ƒ^‚ª“ü‚Á‚½ƒtƒ@ƒCƒ‹‚ð‚²—pˆÓ‚³‚ê‚Ä‚¢‚éê‡‚ÍA.bat‚Ì’†‚Åset y=2‚Æ‚µ‚Ä‚­‚¾‚³‚¢B
+
 ¦ƒf[ƒ^‚ÍTab‚Å‹æØ‚ç‚ê‚Ä‚¢‚é•û‚ªAExcel‚É‚àƒRƒs[•ƒy[ƒXƒg‚µ‚â‚·‚­‚Ä‚¨Š©‚ß‚Å‚·B
 **************************************************************************
 ¡ ƒtƒ@ƒCƒ‹‚Ìà–¾
@@ -27,27 +28,34 @@ XRD‚ÉŠÖ‚·‚é‚à‚Ì‚É‚Â‚¢‚Ä‚ÍA‹@”\‚ð·‚èž‚Ý‚·‚¬‚½‚Ì‚ÅAÏ‹É“I‚É‘‚«Š·‚¦‚Ä‚­‚¾‚³‚¢
 iƒyƒCƒ“ƒg‚âInkscapeAƒpƒ[ƒ|ƒCƒ“ƒg‚ð—p‚¢‚Ä–}—á‚È‚Ç‚ð‘‚«Š·‚¦‚é‚Ù‚¤‚ªŠÈ’P‚Å‚·j
 **************************************************************************
 ¡ .bat‚Ì‘‚«Š·‚¦•û
+
 a)  .batƒtƒ@ƒCƒ‹‚ð‰EƒNƒŠƒbƒN‚µ‚Ä•ÒW‚ð‘I‘ð‚·‚ê‚Î‘‚«Š·‚¦‚ç‚ê‚Ü‚·
 @ƒTƒNƒ‰ƒ_ƒGƒfƒBƒ^i–³žj‚ð—p‚¢‚é‚Ì‚à‚¨Š©‚ß‚Å‚·B
+@
 b) rem ‚ð–`“ª‚É‘‚«“ü‚ê‚é‚ÆƒRƒƒ“ƒg‚Ìs‚É‚È‚è‚Ü‚·
 @[del env.txt]‚ð[rem del env.txt]‚É‘‚«Š·‚¦‚é‚ÆAenv.txt‚ªÁ‚³‚ê‚¸‚ÉŽc‚èA
 @gnuplot—p‚Ì“ü—Í‚É‘Î‰ž‚µ‚Ü‚·B.bat‚ðƒNƒŠƒbƒN‚·‚ê‚Î env.txt‚Ì“à—e‚ð“Ç‚Ýž‚ñ‚Å
 @}‚ð•`‚¢‚Ä‚­‚ê‚Ü‚·B
+@
 c) #graph setting ˆÈ‰º‚Ì•”•ª‚ª}‚ÌcŽ²‰¡Ž²‚È‚Ç‚ÉŠÖ‚·‚é‚à‚Ì‚Å‚·B
 @gnuplot‚ÌŒ`Ž®‚É‚È‚Á‚Ä‚¢‚Ü‚·‚Ì‚ÅAweb‚È‚Ç‚Å’²‚×‚Ä‘‚«Š·‚¦‚Ä‚­‚¾‚³‚¢B
 @“Á‚ÉAset xrange[*:*]‚âyrange[*:*]‚Ì*‚¨‹ï‘Ì“I‚È”’l‚É‚·‚é‚È‚Ç‚¾‚ÆŽv‚¢‚Ü‚·B
+@
 d) ‚»‚Ì‘¼1
 @.dat1‚È‚Ç‚ÅAx, y1, y2, ..., y6‚Æ•¡”‚Ìƒf[ƒ^‚ª‹Lq‚³‚ê‚Ä‚¢‚éê‡‚ÍA
 @.bat‚Ìset x=1, set y=2‚Ì”’l‚ð‘‚«Š·‚¦‚é‚ÆŽw’è‚µ‚½—ñ‚Ìƒf[ƒ^‚ð•`‰æ‚µ‚Ü‚·B
+@
 e) ‚»‚Ì‘¼2
 @shirley‚Å‚ÍA.dat1‚Ìƒf[ƒ^ƒtƒ@ƒCƒ‹‚ÅA
 @@xi‘©”›ƒGƒlƒ‹ƒM[j, y1i‹­“xj, y2iShirly–@‚Å‚ÌƒoƒbƒNƒOƒ‰ƒEƒ“ƒhj
 @‚Æ‚µ‚Äƒf[ƒ^‚ð“ü‚ê‚Ä‚­‚¾‚³‚¢B
+@
 f) ‚»‚Ì‘¼3
 @JIM‚Æ•t‚¢‚½‚à‚Ì‚ÍcŽ²‚Æ‰¡Ž²‚ÌŒ`Ž®‚ð‘µ‚¦‚Ä‚¢‚Ü‚·‚ªA‘¼‚Ì‚à‚Ì‚ÍŒ`Ž®‚ªˆÙ‚È‚Á‚Ä‚¢‚Ü‚·B
 @•K—v‚È‚ç”­•\‚â“Še‚·‚éŠw‰ï‚ÌŒ`Ž®‚É“ˆê‚µ‚Ä‚­‚¾‚³‚¢B
 @Šw‰ï—p‚É‚ÍArialˆÈŠO‚É‚àHelvetica‚ª‚æ‚­Žg‚í‚ê‚Ü‚·B‚Ç‚¿‚ç‚Å‚à—Ç‚¢‚Å‚·‚ªA
 @Œ`Ž®‚Í“ˆê‚µ‚Ä‚¨‚­•K—v‚ª‚ ‚è‚Ü‚·BRIETAN‚Å—L–¼‚Èò•xŽm•væ¶‚ÍArial‚ðŽg‚¤‚»‚¤‚Å‚·B
+@
 g) ‚»‚Ì‘¼4
 EƒXƒyƒNƒgƒ‹‚ðŒ©‚¹‚éê‡
 @¶ƒf[ƒ^‚ªd—v‚È‚Ì‚ÅA¶ƒf[ƒ^‚Ì‚Ü‚Üo—Í‚µ‚Ü‚·iƒXƒvƒ‰ƒCƒ“ŠÖ”‚È‚Ç‚ÅŠŠ‚ç‚©‚É‚µ‚È‚¢jB
@@ -59,5 +67,5 @@ g) ‚»‚Ì‘¼4
 ¡ ƒ‰ƒCƒZƒ“ƒX
 @MITƒ‰ƒCƒZƒ“ƒX‚Å‚·‚Ì‚Å‚²Ž©—R‚É‚¨Žg‚¢‚­‚¾‚³‚¢B
 @‘½‚­‚ÌŒ¤‹†ŽÒ‚Ì‚½‚ß‚É‚æ‚è•Ö—˜‚È‚à‚Ì‚ðì¬‚µ‚Ä’¸‚¯‚Ü‚µ‚½‚çK‚¢‚Å‚·B
-**************************************************************************@
+
 
